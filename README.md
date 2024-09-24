@@ -1,8 +1,7 @@
 # Web Development Projects
 
 ## Overview
-This repository contains multiple web development projects completed as part of my internship program at OctaNet. Each project showcases my skills in web development using various technologies.
-
+As part of my internship with OctaNet, I’ve recently completed two fundamental projects to strengthen my web development skills. While these are basic, they’ve provided valuable hands-on experience and learning.
 ## Projects
 
 ### 1. Landing Page
