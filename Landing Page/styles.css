@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    margin-top: 56px; /* To account for fixed navbar */
+  }
+  
+  /* Navbar */
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: #f8f9fa;
+    margin-left: 10px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffdd57;
+  }
+  
+  /* Hero Section */
+  #hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background:  rgb(36, 92, 235); /* Dark overlay */
+  }
+  
+  #hero h1 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  #hero p {
+    font-size: 1.3rem;
+  }
+  
+  #hero .btn {
+    border-radius: 50px;
+  }
+  
+  /* Section Titles */
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-transform: uppercase;
+  }
+  
+  /* About Section */
+  #about .container {
+    padding: 50px 15px;
+  }
+  
+  #about h4 {
+    font-size: 1.3rem;
+    margin-top: 15px;
+  }
+  
+  #about p {
+    font-size: 1rem;
+  }
+  
+  /* Services Section */
+  #services {
+    background-color: #ffffff;
+  }
+  
+  #services .service-box {
+    transition: all 0.3s ease;
+  }
+  
+  #services .service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  #services h4 {
+    font-size: 1.4rem;
+    margin-top: 15px;
+  }
+  
+  #services p {
+    font-size: 1rem;
+  }
+  
+  /* Testimonials Section */
+  #testimonials blockquote {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 0;
+  }
+  
+  #testimonials .testimonial-box {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #testimonials .testimonial-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Call to Action Section */
+  #cta {
+    background-color: #007bff; /* Background color */
+    color: white; /* Text color */
+  }
+  
+  #cta h2 {
+    color: #ffffff; /* Ensure heading is white */
+  }
+  
+  #cta p {
+    color: #ffffff; /* Ensure paragraph text is white */
+  }
+  
+  #cta .btn {
+    border-radius: 50px;
+    padding: 12px 30px;
+  }
+  
+  /* Contact Section */
+  #contact h2 {
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 1.2rem;
+  }
+  
+  #contact .btn {
+    padding: 12px 30px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Buttons */
+  .btn {
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Hover Effects */
+  .service-box:hover i, .testimonial-box:hover i {
+    color: #ffdd57;
+  }
+  
+  .navbar-dark .navbar-nav .nav-link:hover i,
+  #about i:hover,
+  #services i:hover,
+  #cta i:hover {
+    color: #ffdd57;
+  }
+  
+  #hero .btn:hover {
+    background-color: #ffdd57;
+    color: black;
+  }
+  
+  
